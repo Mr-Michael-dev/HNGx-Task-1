@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+   }
+
+   body{
+    font-family: 'ubuntu', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+img {
+    width: 300px;
+    border-radius: 20%;
+}
+
+.img {
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+h1, p {
+    color: aliceblue;
+}
+
+.githubLink{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+.innerTxt{
+    color: crimson;
+    font-weight: 600;
+}
+
+.date{
+    color: gold;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        justify-content:space-around;
+    }
+
+    .img {
+        margin: 25px;
+        padding-top: 50px;
+    }
+   p {
+        color: aliceblue;
+        padding: 5px;
+        margin: auto;
+        line-height: 1.5;
+    }
+
+    .about {
+        padding: 45px;
+        font-size: large;
+    }
+}
