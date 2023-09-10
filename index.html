@@ -5,11 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script defer src="./JS/index.js"></script>
+    <title>HNGx-Task-1</title>
 </head>
 
 <body>
-
+    <main class="container">
+      <section class="hero">
+        <div class="about">
+          <div>
+            <h1 class=" " data-testid="slackUserName">Mr-Michael_dev</h1>
+             <p>
+               <span id="currentDayOfTheWeek" data-testid="currentDayOfTheWeek"></span>
+               <span id="currentUTCTime" data-testid="currentUTCTime"></span>
+             </p>
+           </div>
+   
+           <div>
+             <P class="intro">I am a Javascript Developer currently interning at <span>HNG<em>x</em></span>. I am in the <span data-testid="myTrack">Frontend Track</span>.  This is my first project. View source code on  <button class="githubLink" data-testid="githubURL"><a  href="https://github.com/Mr-Michael-dev/HNGx-Task-1.git" ><i class='bx bxl-github' >Github </i></a></button></p>
+           </div>   
+        </div>
+       
+        <div class="img">
+          <img src="./img/slack_profile_picture-1.jpg" alt="Mr-Michael_dev" data-testid="slackDisplayImage">
+        </div>
+      </section>
+        </main>
 </body>
 
 </html>
